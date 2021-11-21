@@ -36,9 +36,6 @@ body = {
  'worst fractal dimension' : 0.1189
 }
 response = requests.post(url, data=body)
-if respone==1:
-    print("benign")
-else:
-    print("1")
+
     
 print(response.json())

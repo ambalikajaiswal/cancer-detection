@@ -3,3 +3,4 @@ flask_restful
 joblib
 numpy
 sklearn
+gunicorn

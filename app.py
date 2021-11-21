@@ -31,4 +31,4 @@ class Predict(Resource):
 API.add_resource(Predict, '/predict')
 
 if __name__ == '__main__':
-    APP.run(debug=True)
+    APP.run(debug=True,port=5000)
