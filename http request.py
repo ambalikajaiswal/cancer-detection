@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://127.0.0.1:1080/predict'  # localhost and the defined port + endpoint
+url = '       https://breast-cancer-model-ambu.herokuapp.com/predict'  # localhost and the defined port + endpoint
 																			
 
 body = {
